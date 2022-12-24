@@ -1,0 +1,448 @@
+body {
+    background: rgba(20, 20, 20, 0.51);
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/fashion-word-font-concept-vector-3602427.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header_div {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 1.2rem;   
+    margin-top: -10px;
+}
+
+.div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+   -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header_link {
+    text-decoration: none;
+    color: white;
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.header_list {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+   -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+.header_li {
+    margin-right: 50px;
+}
+
+.header_li:nth-child(3) {
+    margin-right: 0;
+}
+
+.header_home {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.header_home:hover {
+    color: blue;
+    opacity: 0.4;
+}
+
+.header_title {
+    font-size: 76px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 0;
+}
+
+.header_span {
+    color: rgb(55, 55, 55);
+}
+
+.header_text {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.section_1 {
+      margin-top: 80px;
+}
+
+.title {
+    font-size: 33px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.711);
+    margin-bottom: 10px;
+}
+
+.text {
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.625);
+    margin: 0;
+}
+
+.sect_div {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+     -ms-flex-align: start;
+   align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+}
+
+.div_2 {
+    width: 420px;
+}
+
+.gucci_log {
+    margin-left: 35px;
+    margin-top: 30px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.gucci_log:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.gucci {
+    width: 420px;
+    height: 380px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.favorit {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.div_3 {
+    width: 360px;
+}
+
+.guc {
+    width: 360px;
+    height: 230px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.nike_log {
+    margin-top: 35px;
+    margin-left: 30px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.nike_log:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+         transform: scale(1.2);
+}
+
+.div_4 {
+    width: 450px;
+}
+
+.guci {
+    width: 450px;
+    height: 400px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.puma_log {
+    margin-left: 40px;
+    margin-top: 45px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.puma_log:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.div_5 {
+    width: 420px;
+}
+
+.pum {
+    width: 420px;
+    height: 400px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.adidas_log {
+    margin-top: 30px;
+    margin-left: 38px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.adidas_log:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.div_6 {
+    width: 360px;
+}
+
+.chan {
+    width: 360px;
+    height: 540px;
+    background-color: rgb(241, 239, 239);
+    cursor: pointer;
+}
+
+.channel {
+    margin-top: 45px;
+    margin-left: 30px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.channel:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.div_7 {
+    width: 450px;
+}
+
+.lou {
+    width: 450px;
+    height: 400px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.loui {
+    margin-left: 40px;
+    margin-top: 45px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.loui:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.section_2 {
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.tovar {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    margin-bottom: 15px;
+}
+
+.text_tovar {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.742);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.sec_div {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 1320px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 50px;
+}
+
+.lorem {
+    font-size: 30px;
+    width: 420px;
+    color: rgba(0, 0, 0, 0.784);
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+.ipsum {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.381);
+    width: 410px;
+    font-weight: 100;
+}
+
+.box {
+    background-color: rgb(46, 46, 46);
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.sect_3 {
+    background-color: #fff;
+    padding-bottom: 5px;
+}
+
+.jordan {
+    margin-left: 250px;
+}
+
+.the {
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.wood {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: -15px;
+}
+
+.png {
+    background: rgba(128, 128, 128, 0.536);
+    opacity: 0.7;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.can {
+    opacity: 0.6;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.black {
+    opacity: 0.6;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.fee {
+    opacity: 0.6;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.bdf {
+    opacity: 0.6;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.dumalo {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    margin-right: 15px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer_title {
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    font-size: 20px;
+    word-spacing: 4px;
+    background-color: black;
+}
